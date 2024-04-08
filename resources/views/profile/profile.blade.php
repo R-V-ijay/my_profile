@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    @vite(['resources/scss/app.scss'])
-
+    {{-- @vite(['resources/scss/app.scss']) --}}
+    <link rel="stylesheet" href="{{asset('build/assets/app-B8iUf4aS.css')}}">
 </head>
 
 <body ng-app="myApp" ng-controller="MyProfile as profile">
@@ -259,7 +259,10 @@
         </ul>
         <p class="text-white pt-2"> &#169; 2024 All rights reserved by VR</p>
     </footer>
-    @vite(['resources/js/app.js'])
+    {{-- @vite(['resources/js/app.js']) --}}
+    {{-- <script src="{{asset('js/app-DFMGEaK5.js')}}"></script> --}}
+    <script src="{{asset('jQuery/jQuery.js')}}" type="text/javascript"  ></script>
+        <script type="module" src="{{asset('build/assets/app--a20tRQ9.js')}}"  ></script>
 
 </body>
 

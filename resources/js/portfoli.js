@@ -1,6 +1,6 @@
 import '../../node_modules/angular/angular';
 import './bootstrap';
-import './jQuery/jQuery';
+
 import axios from 'axios';
 
 var myApp = angular.module('myApp', []);
@@ -15,7 +15,7 @@ myApp.controller('MyProfile', [function ($scope) {
         var header = document.querySelector("#nav");
         var main_div = document.querySelector("#mainDiv");
         header.classList.toggle("stick", window.scrollY > 10);
-    })
+    });
 
 
     $(document).ready(function () {
